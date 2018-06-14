@@ -1,0 +1,16 @@
+PODS:
+  - SwiftySound (1.0.0)
+
+DEPENDENCIES:
+  - SwiftySound
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SwiftySound
+
+SPEC CHECKSUMS:
+  SwiftySound: b9c3370956fd4ed65ed79d45563070077a50a2cd
+
+PODFILE CHECKSUM: 4af1e20b3c61fb721ec9678c96eb346bd2b5c87b
+
+COCOAPODS: 1.5.3

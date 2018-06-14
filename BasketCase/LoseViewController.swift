@@ -7,3 +7,32 @@
 //
 
 import Foundation
+import UIKit
+import SpriteKit
+import GameplayKit
+import AVFoundation
+
+class LoseViewController: UIViewController {
+//    let mainStoryboard = UIStoryboard(name: "Main", bundle: nil)
+//
+//    @IBAction func goToMainMenu(_ sender: Any) {
+//        
+//        
+//        let game = mainStoryboard.instantiateViewController(withIdentifier:"MainMenu")
+//        
+//        self.dismiss(animated: false, completion: nil)
+//        present(game, animated: false, completion: nil)
+//        
+//    }
+//    
+//    @IBAction func playAgin(_ sender: Any) {
+//        
+//        let game = mainStoryboard.instantiateViewController(withIdentifier:"GVC")
+//        
+//        self.dismiss(animated: false, completion: nil)
+//        present(game, animated: false, completion: nil)
+//        
+//    }
+//    
+//    
+}

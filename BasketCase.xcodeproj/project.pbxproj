@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6802193420C49C2100778F1C /* MenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6802193320C49C2000778F1C /* MenuScene.swift */; };
+		6802193820C4AB8500778F1C /* MyScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6802193720C4AB8500778F1C /* MyScene.sks */; };
+		68103A2920CE762100378B61 /* LoseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68103A2820CE762100378B61 /* LoseViewController.swift */; };
 		68234DE420B9F06000A1CDFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68234DE320B9F06000A1CDFC /* AppDelegate.swift */; };
 		68234DE620B9F06000A1CDFC /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 68234DE520B9F06000A1CDFC /* GameScene.sks */; };
 		68234DE820B9F06000A1CDFC /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 68234DE720B9F06000A1CDFC /* Actions.sks */; };
@@ -17,6 +20,16 @@
 		68234DF420B9F06400A1CDFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68234DF220B9F06400A1CDFC /* LaunchScreen.storyboard */; };
 		68234DFF20B9F06400A1CDFC /* BasketCaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68234DFE20B9F06400A1CDFC /* BasketCaseTests.swift */; };
 		68234E0A20B9F06400A1CDFC /* BasketCaseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68234E0920B9F06400A1CDFC /* BasketCaseUITests.swift */; };
+		682B4D3320CC8200003CA502 /* MMViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682B4D3220CC8200003CA502 /* MMViewController.swift */; };
+		682C1A1520D0BFED001DA8ED /* homeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682C1A1420D0BFED001DA8ED /* homeScreenViewController.swift */; };
+		685A71E520CDB295000117B1 /* STF_ELEVATED.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 685A71E420CDB294000117B1 /* STF_ELEVATED.ttf */; };
+		6863133620D2429A003ED99E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6863133520D2429A003ED99E /* AVFoundation.framework */; };
+		6863133820D242A4003ED99E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6863133720D242A4003ED99E /* Foundation.framework */; };
+		6863133A20D242AE003ED99E /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6863133920D242AE003ED99E /* Accelerate.framework */; };
+		6865E89A20BBC20900862E4E /* 1boing.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6865E89920BBC20800862E4E /* 1boing.mp3 */; };
+		68714FEE20CD954F00B8CA06 /* BackgroundMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 68714FED20CD954F00B8CA06 /* BackgroundMusic.mp3 */; };
+		688C48F820CDB11200D256C7 /* STFELEVATED in Resources */ = {isa = PBXBuildFile; fileRef = 688C48F720CDB11100D256C7 /* STFELEVATED */; };
+		E479C4DF887656FD7A6FC177 /* Pods_BasketCase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 989340D8A6377484A73B9667 /* Pods_BasketCase.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +50,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6802193320C49C2000778F1C /* MenuScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuScene.swift; sourceTree = "<group>"; };
+		6802193720C4AB8500778F1C /* MyScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyScene.sks; sourceTree = "<group>"; };
+		68103A2820CE762100378B61 /* LoseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoseViewController.swift; sourceTree = "<group>"; };
 		68234DE020B9F06000A1CDFC /* BasketCase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BasketCase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68234DE320B9F06000A1CDFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		68234DE520B9F06000A1CDFC /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -53,6 +69,18 @@
 		68234E0520B9F06400A1CDFC /* BasketCaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BasketCaseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		68234E0920B9F06400A1CDFC /* BasketCaseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketCaseUITests.swift; sourceTree = "<group>"; };
 		68234E0B20B9F06400A1CDFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		682B4D3220CC8200003CA502 /* MMViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMViewController.swift; sourceTree = "<group>"; };
+		682C1A1420D0BFED001DA8ED /* homeScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeScreenViewController.swift; sourceTree = "<group>"; };
+		685A71E420CDB294000117B1 /* STF_ELEVATED.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = STF_ELEVATED.ttf; path = ../../../../Desktop/STF_ELEVATED.ttf; sourceTree = "<group>"; };
+		6863133520D2429A003ED99E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		6863133720D242A4003ED99E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6863133920D242AE003ED99E /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		6865E89920BBC20800862E4E /* 1boing.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = 1boing.mp3; path = ../../../Downloads/1boing.mp3; sourceTree = "<group>"; };
+		68714FED20CD954F00B8CA06 /* BackgroundMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = BackgroundMusic.mp3; path = ../../../../Downloads/BackgroundMusic.mp3; sourceTree = "<group>"; };
+		688C48F720CDB11100D256C7 /* STFELEVATED */ = {isa = PBXFileReference; lastKnownFileType = folder; name = STFELEVATED; path = ../../../../Downloads/STFELEVATED; sourceTree = "<group>"; };
+		989340D8A6377484A73B9667 /* Pods_BasketCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BasketCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF18192DBEC12FDDAFA48966 /* Pods-BasketCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BasketCase.release.xcconfig"; path = "Pods/Target Support Files/Pods-BasketCase/Pods-BasketCase.release.xcconfig"; sourceTree = "<group>"; };
+		FD07CE8F52ACA992BFC29C72 /* Pods-BasketCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BasketCase.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BasketCase/Pods-BasketCase.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +88,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6863133A20D242AE003ED99E /* Accelerate.framework in Frameworks */,
+				6863133820D242A4003ED99E /* Foundation.framework in Frameworks */,
+				6863133620D2429A003ED99E /* AVFoundation.framework in Frameworks */,
+				E479C4DF887656FD7A6FC177 /* Pods_BasketCase.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,9 +116,12 @@
 			isa = PBXGroup;
 			children = (
 				68234DE220B9F06000A1CDFC /* BasketCase */,
+				6865E89920BBC20800862E4E /* 1boing.mp3 */,
 				68234DFD20B9F06400A1CDFC /* BasketCaseTests */,
 				68234E0820B9F06400A1CDFC /* BasketCaseUITests */,
 				68234DE120B9F06000A1CDFC /* Products */,
+				7F2633EF7B9C0EDE310AA89B /* Frameworks */,
+				DB34F2E9CE954799A5CCBAC9 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,14 +139,22 @@
 			isa = PBXGroup;
 			children = (
 				68234DE320B9F06000A1CDFC /* AppDelegate.swift */,
+				6802193720C4AB8500778F1C /* MyScene.sks */,
 				68234DE520B9F06000A1CDFC /* GameScene.sks */,
 				68234DE720B9F06000A1CDFC /* Actions.sks */,
 				68234DE920B9F06000A1CDFC /* GameScene.swift */,
+				6802193320C49C2000778F1C /* MenuScene.swift */,
+				682B4D3220CC8200003CA502 /* MMViewController.swift */,
+				68103A2820CE762100378B61 /* LoseViewController.swift */,
+				682C1A1420D0BFED001DA8ED /* homeScreenViewController.swift */,
 				68234DEB20B9F06000A1CDFC /* GameViewController.swift */,
 				68234DED20B9F06000A1CDFC /* Main.storyboard */,
-				68234DF020B9F06400A1CDFC /* Assets.xcassets */,
 				68234DF220B9F06400A1CDFC /* LaunchScreen.storyboard */,
 				68234DF520B9F06400A1CDFC /* Info.plist */,
+				68714FED20CD954F00B8CA06 /* BackgroundMusic.mp3 */,
+				68234DF020B9F06400A1CDFC /* Assets.xcassets */,
+				685A71E420CDB294000117B1 /* STF_ELEVATED.ttf */,
+				688C48F720CDB11100D256C7 /* STFELEVATED */,
 			);
 			path = BasketCase;
 			sourceTree = "<group>";
@@ -134,6 +177,26 @@
 			path = BasketCaseUITests;
 			sourceTree = "<group>";
 		};
+		7F2633EF7B9C0EDE310AA89B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6863133920D242AE003ED99E /* Accelerate.framework */,
+				6863133720D242A4003ED99E /* Foundation.framework */,
+				6863133520D2429A003ED99E /* AVFoundation.framework */,
+				989340D8A6377484A73B9667 /* Pods_BasketCase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB34F2E9CE954799A5CCBAC9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FD07CE8F52ACA992BFC29C72 /* Pods-BasketCase.debug.xcconfig */,
+				BF18192DBEC12FDDAFA48966 /* Pods-BasketCase.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -141,9 +204,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 68234E0E20B9F06400A1CDFC /* Build configuration list for PBXNativeTarget "BasketCase" */;
 			buildPhases = (
+				27648E67CFC84963EA9DFBFC /* [CP] Check Pods Manifest.lock */,
 				68234DDC20B9F06000A1CDFC /* Sources */,
 				68234DDD20B9F06000A1CDFC /* Frameworks */,
 				68234DDE20B9F06000A1CDFC /* Resources */,
+				8A84BB9B3DD5BD20559D303B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -238,10 +303,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6865E89A20BBC20900862E4E /* 1boing.mp3 in Resources */,
 				68234DEF20B9F06000A1CDFC /* Main.storyboard in Resources */,
+				685A71E520CDB295000117B1 /* STF_ELEVATED.ttf in Resources */,
+				68714FEE20CD954F00B8CA06 /* BackgroundMusic.mp3 in Resources */,
 				68234DE620B9F06000A1CDFC /* GameScene.sks in Resources */,
 				68234DF120B9F06400A1CDFC /* Assets.xcassets in Resources */,
+				688C48F820CDB11200D256C7 /* STFELEVATED in Resources */,
 				68234DF420B9F06400A1CDFC /* LaunchScreen.storyboard in Resources */,
+				6802193820C4AB8500778F1C /* MyScene.sks in Resources */,
 				68234DE820B9F06000A1CDFC /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,12 +332,55 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		27648E67CFC84963EA9DFBFC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BasketCase-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A84BB9B3DD5BD20559D303B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BasketCase/Pods-BasketCase-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftySound/SwiftySound.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftySound.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BasketCase/Pods-BasketCase-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		68234DDC20B9F06000A1CDFC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				68234DEA20B9F06000A1CDFC /* GameScene.swift in Sources */,
+				682B4D3320CC8200003CA502 /* MMViewController.swift in Sources */,
+				68103A2920CE762100378B61 /* LoseViewController.swift in Sources */,
+				682C1A1520D0BFED001DA8ED /* homeScreenViewController.swift in Sources */,
+				6802193420C49C2100778F1C /* MenuScene.swift in Sources */,
 				68234DEC20B9F06000A1CDFC /* GameViewController.swift in Sources */,
 				68234DE420B9F06000A1CDFC /* AppDelegate.swift in Sources */,
 			);
@@ -440,9 +553,11 @@
 		};
 		68234E0F20B9F06400A1CDFC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD07CE8F52ACA992BFC29C72 /* Pods-BasketCase.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KHTY3E6HX2;
 				INFOPLIST_FILE = BasketCase/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -457,9 +572,11 @@
 		};
 		68234E1020B9F06400A1CDFC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF18192DBEC12FDDAFA48966 /* Pods-BasketCase.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KHTY3E6HX2;
 				INFOPLIST_FILE = BasketCase/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
